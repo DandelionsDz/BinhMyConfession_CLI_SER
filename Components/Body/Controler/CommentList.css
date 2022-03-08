@@ -1,0 +1,45 @@
+.reply-span {
+    color :#6e7074 !important;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.reply-span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.span-view-reply {
+    color :#6e7074 !important;
+    font-weight: 640;
+    font-size: 14px;
+    margin: 10px;
+    display: block;
+}
+
+.span-view-reply:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.reply-cmt {
+    margin-top: 10px !important;
+}
+
+.input-comment {
+    flex: 1;
+    border: none;
+    background-color: #f0f2f5;
+    padding-left: 5px;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+.input-comment:focus-visible {
+   outline: none;
+}
+
+.main-cmt {
+   
+}

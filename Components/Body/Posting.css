@@ -1,0 +1,30 @@
+.posting-wrapper {
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.posting-table {
+    box-shadow: 0px 0px 3px #bbbbbb;
+    border: 1px solid #ccc;
+    padding: 13px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.avatar-sm {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+}
+
+.cfs-span {
+    white-space: pre-wrap;
+}
+
+.loadmore-span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

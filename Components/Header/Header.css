@@ -1,0 +1,92 @@
+.introduce-header {
+    width: 100%;
+    max-height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #0093E9;
+background-image: linear-gradient(200deg, #2395ff 0%, white 70%);
+padding-bottom: 10px;
+}
+
+.thumb-nail {
+    width: 100%;
+    height: 60px;
+}
+
+.avatar-web {
+    object-fit: cover;
+    width: 175px;
+    height: auto;
+    max-height: 100%;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.text-header {
+    font-style: bold;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text-descri {
+    padding: 7px;
+}
+
+.edit-infor-btn:hover {
+    text-decoration: underline;
+}
+
+.modal-infor {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.input-facebook-link {
+    outline: none;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+}
+
+@keyframes showBox {
+    from {
+        transform: scale(.2);}
+    to {
+        transform: scale(1);}
+    }
+
+.infor-box {
+    animation: showBox .3s ease;
+    font-size: 1.3rem;
+    border-radius: 7px;
+    background-color: white;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 20px #ccc;
+}
+
+.input-edit-username {
+    padding: 3px 5px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.show-infor-header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}

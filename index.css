@@ -1,0 +1,90 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+}
+
+
+body {
+    background-color: #f1f1f16c
+}
+
+:root {
+    --primary-color : #050505;
+}
+
+#root {
+    
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+hr {
+    background-color: #ccc;
+}
+
+.likedAni {
+    animation: likedAnimation 0.1s;
+}
+
+.button-hover:hover {
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+.centerwithflex {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes likedAnimation {
+    0% {
+        font-size: 22px;
+    }
+
+    100% {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 576px) { 
+
+ }
+
+
+@media (min-width: 768px) { 
+    #root {
+        padding: 0 10%;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    #root {
+        padding: 0 20%;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    #root {
+        padding: 0 20%;
+    }
+ }
+
+
+@media (min-width: 1400px) { 
+    #root {
+        padding: 0 30%;
+    }
+ }
